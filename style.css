@@ -227,6 +227,9 @@ table {
   }
   .end{
     margin-top: 16px;
+    position: absolute;
+    bottom: 0;
+    z-index: 5000;
   }
   .end ul{
     display: flex;
@@ -253,4 +256,39 @@ line-height: 13px;
   .end h2{font-size: 9px;
     line-height: 12px;
     margin-top: 4px;
+}
+.hide{
+    position: relative;
+}
+.hide::before{
+    content: "";
+    width: 102%;
+    height: 104%;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    background-color: white;
+    z-index: 50;
+}
+.hideEnd::before{
+    width: 103%;
+}
+.hideEnd2::before{
+    left: 0px;
+    width: 100%;
+}
+.hide p {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 500;
+    font-size: 9px;
+    left: 50%;
+   
+}
+.hide .handelP {
+    left: 35%;
+}
+.table{
+    position: relative;
 }
