@@ -2,39 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "DM Sans";
   }
-  @font-face {
-    font-family: "DM Sans";
-    src: url("../fonts/DMSans-Bold.ttf");
-    font-weight: 700;
-    font-style: normal;
-    color: var(--main-color);
-  }
-  @font-face {
-    font-family: "DM Sans2";
-    src: url("../fonts/DMSans-Medium.ttf");
-    font-weight: 500;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "DM Sans3";
-    src: url("../fonts/DMSans-Regular.ttf");
-    font-weight: 200;
-    font-style: normal;
-  }
+  
   body{
       display: flex;
       align-items: center;
-      justify-content: center;
+      
       height: 150vh;
   }
   main {
-    width: 800px;
+    
+    border: 4px solid;
+    padding-top: 14px;
+    padding-bottom: 50px;
       margin: auto;
-      background-color: white;
+  position: relative;
   }
-  
+  main::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #175878;
+  }
+  .color2{
+    color: #175878;
+  }
   h1 {
       color: red;
       text-align: center;
@@ -44,8 +39,8 @@
   
   /* Table Styles */
   
-  .table-wrapper{
-      
+  .table-wrapper {
+    font-family: system-ui;
   }
   
   .fl-table {
@@ -57,7 +52,7 @@
       width: 100%;
       max-width: 100%;
       white-space: nowrap;
-      background-color: white;
+      background-color: #daf0ee;
   }
   
   .fl-table td, .fl-table th {
@@ -66,30 +61,29 @@
   }
   
   .fl-table td {
-      border-right: 1px solid #000000;
+     
       font-size: 12px;
       height: 34px;
-      border-bottom: none;
-      border-top: none;
       white-space: initial;
       line-height: 24px;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 14px;
     }
   
   
-  .fl-table thead th {
-      color: white;
-      background: #175878;
+    .fl-table thead th {
+      color: #fde270;
+      background: #0d384a;
       white-space: pre-wrap;
       font-family: system-ui;
       font-size: 18px;
-      font-weight: 400;
+      line-height: 20px;
+      
   }
   
   
   .fl-table tr:nth-child(even) {
-      background: #E9EDFF;
+    background-color: #daf0ee;
      
   }
   
@@ -106,7 +100,6 @@
   .table{
       position: relative;
   }
-  .end {
-    background-color: #4796de;
-    border-top: 1px solid;
+  .red{
+    color: red;
   }
