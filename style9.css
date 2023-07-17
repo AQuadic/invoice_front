@@ -138,3 +138,9 @@ border-bottom: 2px solid rgb(171 171 171)!important;
     border-bottom: none;
    
 }
+.allCharts{
+  margin-top: 50px;
+  display: flex;
+  gap: 50px ;
+  justify-content: space-around;
+}
