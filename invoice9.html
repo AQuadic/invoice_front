@@ -783,7 +783,10 @@ const barColors = ["#478fe7", "#439f2c","#e2c700","#db7500","#df3a00","#8155ae"]
               scales: {
                   yAxes: [{
                       ticks: {
-                          beginAtZero: true
+                          beginAtZero: true,
+                          max: 100,
+                min: 0,
+                stepSize: 25
                       }
                   }]
               }
