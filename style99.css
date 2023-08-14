@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+  }
+  @font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    color: var(--main-color);
+  }
+  @font-face {
+    font-family: "DM Sans2";
+    src: url("../fonts/DMSans-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DM Sans3";
+    src: url("../fonts/DMSans-Regular.ttf");
+    font-weight: 200;
+    font-style: normal;
+  }
+  body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150vh;
+  }
+  main {
+    width: 800px;
+      margin: auto;
+      background-color: white;
+  }
+  
+  h1 {
+      color: red;
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 24px;
+  }
+  
+  /* Table Styles */
+  
+  .table-wrapper{
+      
+  }
+  
+  .fl-table {
+      border-radius: 5px;
+      font-size: 10px;
+      line-height: 13px;
+  
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 100%;
+      white-space: nowrap;
+      background-color: white;
+  }
+  
+  .fl-table td, .fl-table th {
+      text-align: center;
+      padding: 0px;
+  }
+  
+  .fl-table td {
+      border-right: 1px solid #000000;
+      font-size: 12px;
+      height: 34px;
+      border-bottom: none;
+      border-top: none;
+      white-space: initial;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  
+  
+  .fl-table thead th {
+      color: white;
+      background: #63b2de;
+      white-space: pre-wrap;
+      font-family: system-ui;
+      font-size: 18px;
+      font-weight: 400;
+  }
+  
+  
+  .fl-table tr:nth-child(even) {
+      background: #e8eef0;
+     
+  }
+  
+  
+  table {
+      border-collapse: collapse;
+      border-bottom: 1px solid black;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+    
+  .table{
+      position: relative;
+  }
+  .end {
+    background-color: #4796de;
+    border-top: 1px solid;
+  }

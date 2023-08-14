@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      display: flex;
+      align-items: center;
+      
+      height: 150vh;
+  }
+  main {
+    
+    border: 4px solid;
+    padding-top: 14px;
+    padding-bottom: 50px;
+      margin: auto;
+  position: relative;
+  }
+  
+  .color2{
+    color: #175878;
+  }
+  h1 {
+      color: red;
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 24px;
+  }
+  
+  /* Table Styles */
+  
+  .table-wrapper {
+    font-family: system-ui;
+  }
+  
+  .fl-table {
+      border-radius: 5px;
+      font-size: 10px;
+      line-height: 13px;
+      border: 4px solid ;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 100%;
+      white-space: nowrap;
+      background-color: white;
+  }
+  
+  .fl-table td, .fl-table th {
+      text-align: center;
+      padding: 0px;
+  }
+  
+  .fl-table td {
+    min-width: 64px;
+      font-size: 12px;
+      height: 40px;
+      white-space: initial;
+      line-height: 24px;
+      font-weight: 800;
+      font-size: 18px;
+    }
+  .end{
+    text-align:end !important;
+  }
+  
+    .fl-table thead th {
+      
+      white-space: pre-wrap;
+      font-family: system-ui;
+      font-size: 18px;
+      line-height: 20px;
+      
+  }
+  
+  .top{
+border-top: 3px solid;
+  }
+  .bottom{
+    border-bottom: 3px solid;
+      }
+  
+  
+  table {
+      border-collapse: collapse;
+      border-bottom: 5px solid black;
+    }
+    th, td {
+      border: 2px solid black;
+      padding: 5px;
+    }
+    
+  .table{
+      position: relative;
+  }
+  .red{
+    color: red;
+  }
+  .total{
+    min-height: 80px;
+    height: 80px;
+    background-color: #427da4;
+    color: #fbdf56;
+  }
+  .total td{
+  font-size: 23px;
+    font-weight: bold;
+    border-top: 4px solid #3b5714;
+}
+tr td:last-of-type , tr td:first-of-type{
+    border: 3px solid black;
+}
+tr td:nth-last-of-type(2){
+    border: 3px solid black ;
+}
+
+.all td{
+    border: 3px solid ;
+}
+.right td{
+    border-right: 3px solid;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    justify-content: center;
+    text-align: end;
+    padding-bottom: 12px;
+    border: 5px solid black;
+    border-bottom: none;
+   
+}
+.info h2,h3{
+    font-weight: 400;
+}
