@@ -72,6 +72,17 @@ border-right: none;
     }
   
   
+    .table1 .fl-table td {
+   
+      font-size: 12px;
+      height: 40px;
+      border-color: black;
+      white-space: initial;
+      line-height: 24px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  
     .fl-table thead th {
      
       white-space: pre-wrap;
